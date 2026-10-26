@@ -16,3 +16,14 @@ p {
     text-align: center;
 }
 
+.navbar a {
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #1e40af;
+    border-radius: 5px;
+}
