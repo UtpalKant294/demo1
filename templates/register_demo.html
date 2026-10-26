@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+    
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/register_styledemo.css') }}">
+
+          <!-- External JavaScript -->
+    <script src="{{ url_for('static', filename='js/register_jsdemo.js') }}"
+            defer></script>
+</head>
+<body>
+
+    <h2>Enter Your Name</h2>
+  
+    <p id="result"></p>
+
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+
+   
+
+    
+</body>
+</html>
